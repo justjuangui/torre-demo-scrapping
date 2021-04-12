@@ -1,0 +1,17 @@
+{
+  "name": "importerdata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "juangui",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "debug": "^4.3.1",
+    "dotenv": "^8.2.0",
+    "mysql2": "^2.2.5"
+  }
+}
