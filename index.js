@@ -9,7 +9,7 @@ require('dotenv').config()
 const insertQuery = `
 insert into opportunities(
   internal_id,
-  objetive,
+  objective,
   type,
   organizations,
   locations,
@@ -17,7 +17,7 @@ insert into opportunities(
   deadline,
   created,
   status,
-  compesation,
+  compensation,
   skills
 ) VALUES ?;
 `
